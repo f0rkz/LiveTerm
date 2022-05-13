@@ -16,7 +16,7 @@ export const getReadme = async () => {
 export const getBlog = async () => {
   const { data } = await axios.get(config.blogUrl);
   return data;
-}
+};
 
 export const getWeather = async (city: string) => {
   try {
