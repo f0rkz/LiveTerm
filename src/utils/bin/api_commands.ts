@@ -27,7 +27,7 @@ export const readme = async (args: string[]): Promise<string> => {
 ${readme}`;
 };
 
-export const getBlog = async (args: string[]): Promise<string> => {
+export const blog = async (args: string[]): Promise<string> => {
   const blog = await getBlog();
   return `Opening Blog...\n
 ${blog}`;
