@@ -42,7 +42,7 @@ div#__next > div {
 
 pre code {
   display: block;
-  background: none;
+  background: #0b0e11;
   white-space: pre;
   -webkit-overflow-scrolling: touch;
   overflow-x: scroll;
